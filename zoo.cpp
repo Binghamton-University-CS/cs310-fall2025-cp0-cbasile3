@@ -1,5 +1,5 @@
 #include "Animal.h"
-
+#include "AnimalsInZoo.h"
 int main() {
    Animal *animal1 = new Animal("African Elephant", 1758);
    Animal animal2("Giant Panda", 1869);
@@ -11,4 +11,6 @@ int main() {
    animal1->display();
    animal3.display();
    delete animal1;
+   AnimalsInZoo a1 = (animal3);
+   a1.display();
 }
